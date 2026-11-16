@@ -1,0 +1,15 @@
+/.bundle/
+/coverage/
+/pkg/
+/tmp/
+
+# Lockfiles (gem, not app)
+Gemfile.lock
+gemfiles/*.gemfile.lock
+
+# rspec failure tracking
+.rspec_status
+
+# Dummy app artifacts
+spec/dummy/log/
+spec/dummy/tmp/
